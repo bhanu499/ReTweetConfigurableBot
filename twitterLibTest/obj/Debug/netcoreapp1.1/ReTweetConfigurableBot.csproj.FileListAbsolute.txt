@@ -1,0 +1,9 @@
+C:\Users\bssaladi\documents\visual studio 2017\Projects\twitterLibTest\twitterLibTest\bin\Debug\netcoreapp1.1\ReTweetConfigurableBot.deps.json
+C:\Users\bssaladi\documents\visual studio 2017\Projects\twitterLibTest\twitterLibTest\bin\Debug\netcoreapp1.1\ReTweetConfigurableBot.runtimeconfig.json
+C:\Users\bssaladi\documents\visual studio 2017\Projects\twitterLibTest\twitterLibTest\bin\Debug\netcoreapp1.1\ReTweetConfigurableBot.runtimeconfig.dev.json
+C:\Users\bssaladi\documents\visual studio 2017\Projects\twitterLibTest\twitterLibTest\obj\Debug\netcoreapp1.1\ReTweetConfigurableBot.AssemblyInfo.cs
+C:\Users\bssaladi\documents\visual studio 2017\Projects\twitterLibTest\twitterLibTest\obj\Debug\netcoreapp1.1\ReTweetConfigurableBot.dll
+C:\Users\bssaladi\documents\visual studio 2017\Projects\twitterLibTest\twitterLibTest\obj\Debug\netcoreapp1.1\ReTweetConfigurableBot.pdb
+C:\Users\bssaladi\documents\visual studio 2017\Projects\twitterLibTest\twitterLibTest\bin\Debug\netcoreapp1.1\appsettings.json
+C:\Users\bssaladi\documents\visual studio 2017\Projects\twitterLibTest\twitterLibTest\bin\Debug\netcoreapp1.1\ReTweetConfigurableBot.dll
+C:\Users\bssaladi\documents\visual studio 2017\Projects\twitterLibTest\twitterLibTest\bin\Debug\netcoreapp1.1\ReTweetConfigurableBot.pdb

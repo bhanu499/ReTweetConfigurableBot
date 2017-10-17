@@ -1,0 +1,10 @@
+C:\Users\bssaladi\documents\visual studio 2017\Projects\twitterLibTest\twitterLibTest\bin\Release\netcoreapp1.1\appsettings.json
+C:\Users\bssaladi\documents\visual studio 2017\Projects\twitterLibTest\twitterLibTest\bin\Release\netcoreapp1.1\twitterLibTest.deps.json
+C:\Users\bssaladi\documents\visual studio 2017\Projects\twitterLibTest\twitterLibTest\bin\Release\netcoreapp1.1\twitterLibTest.runtimeconfig.json
+C:\Users\bssaladi\documents\visual studio 2017\Projects\twitterLibTest\twitterLibTest\bin\Release\netcoreapp1.1\twitterLibTest.runtimeconfig.dev.json
+C:\Users\bssaladi\documents\visual studio 2017\Projects\twitterLibTest\twitterLibTest\bin\Release\netcoreapp1.1\twitterLibTest.dll
+C:\Users\bssaladi\documents\visual studio 2017\Projects\twitterLibTest\twitterLibTest\bin\Release\netcoreapp1.1\twitterLibTest.pdb
+C:\Users\bssaladi\documents\visual studio 2017\Projects\twitterLibTest\twitterLibTest\obj\Release\netcoreapp1.1\twitterLibTest.AssemblyInfo.cs
+C:\Users\bssaladi\documents\visual studio 2017\Projects\twitterLibTest\twitterLibTest\obj\Release\netcoreapp1.1\twitterLibTest.dll
+C:\Users\bssaladi\documents\visual studio 2017\Projects\twitterLibTest\twitterLibTest\obj\Release\netcoreapp1.1\twitterLibTest.pdb
+C:\Users\bssaladi\documents\visual studio 2017\Projects\twitterLibTest\twitterLibTest\obj\Release\netcoreapp1.1\twitterLibTest.csprojResolveAssemblyReference.cache
