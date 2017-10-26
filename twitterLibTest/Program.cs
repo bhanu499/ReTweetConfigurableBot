@@ -53,8 +53,9 @@ namespace ReTweetConfigurableBot
                 JObject jo = JObject.Parse(TweetReceivedEventArgs.Json);
                 ReTweetHelper helper = new ReTweetHelper();
                 int benchMarkFollowersCount = Convert.ToInt32(config["benchMarkFollowersCount"]);
+                int benchmarkTweetsCount = Convert.ToInt32(config["benchmarkTweetsCount"]);
 
-                if (helper.PublishReTweet(jo, benchMarkFollowersCount))
+                if (helper.PublishReTweet(jo, benchMarkFollowersCount, benchmarkTweetsCount))
                 {
                     count++;
                     Console.WriteLine("Tweet Republished " + count);

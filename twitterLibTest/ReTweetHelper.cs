@@ -11,18 +11,24 @@ namespace ReTweetConfigurableBot
     {
         private bool IsRetweet(JObject twt)
         {
-            if (twt["retweeted_status"]!= null)
+            if (twt["retweeted_status"] != null)
                 return true;
             else
-                return false;
+            {
+                string rtExists = (string)twt["text"];
+                if (rtExists.StartsWith("RT"))
+                    return true;
+                else
+                    return false;
+            }
         }
 
-        public bool PublishReTweet (JObject twt , int benchmarkFollowersCount , bool allowReTweetsPublish = false)
+        public bool PublishReTweet (JObject twt , int benchmarkFollowersCount, int benchmarkTweetsCount, bool allowReTweetsPublish = false)
         {
             bool publishStatus = false;
             if (allowReTweetsPublish || !IsRetweet(twt))
             {
-                if (IsValuableTweet(twt, benchmarkFollowersCount))
+                if (IsValuableTweet(twt, benchmarkFollowersCount, benchmarkTweetsCount))
                 {
                     var rootTweet = Tweet.GetTweet((long)twt["id_str"]);
                     var reTweet = Tweet.PublishRetweet(rootTweet);
@@ -32,13 +38,14 @@ namespace ReTweetConfigurableBot
             return publishStatus;
         }
 
-        public bool IsValuableTweet (JObject twt , int benchmarkFollowersCount)
+        public bool IsValuableTweet (JObject twt , int benchmarkFollowersCount , int benchmarkTweetsCount)
         {
            
                 var userDetails = twt["user"];
                 var followersCount =(long) userDetails["followers_count"];
+            var tweetsCount = (long)userDetails["statuses_count"];
                // var userName = userDetails["name"];
-                if (followersCount > benchmarkFollowersCount)
+                if (followersCount > benchmarkFollowersCount && tweetsCount < benchmarkTweetsCount)
                     return true;
                 else
                     return false;
